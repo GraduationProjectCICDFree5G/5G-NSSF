@@ -21,8 +21,8 @@ pipeline {
          steps {
 
         sh(script: """
-            sudo docker build -t 5ggraduationproject/nssf:latest . 
-            sudo docker images -a                  
+             docker build -t 5ggraduationproject/nssf:latest . 
+             docker images -a                  
         """)
             }
             }
