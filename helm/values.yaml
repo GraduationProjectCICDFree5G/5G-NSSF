@@ -41,7 +41,7 @@ nssf:
   name: nssf
   replicaCount: 1
   image:
-    name: 5ggraduationproject/5g-nssf
+    name: towards5gs/free5gc-nssf
     pullPolicy: Always
   service:
     type: ClusterIP
